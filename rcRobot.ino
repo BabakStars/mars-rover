@@ -32,5 +32,5 @@ void loop() {
   DATA[2] = 0;
   
   radio.write(DATA,sizeof(DATA));
-  delayMicroseconds(5000);
+  delay(50);
 }
