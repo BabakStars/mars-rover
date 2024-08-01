@@ -41,6 +41,6 @@ void loop()
     }
     
     myservo.write(DATA[0]);
-    delayMicroseconds(5);
+    delay(50);
   }
 }
